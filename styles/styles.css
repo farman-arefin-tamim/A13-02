@@ -79,3 +79,40 @@ nav button{
     border: none;
     color: white;
 }
+
+#header-text-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 8rem;
+}
+#header-text-section .header-text1{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.header-button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.header-button-section .btn-1{
+    color: white;
+    font-size: 1rem;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.header-button-section .btn-2{
+    color: #00FF88;
+    font-size: 1rem;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    background-color: transparent;
+}
