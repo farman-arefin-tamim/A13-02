@@ -71,6 +71,10 @@ nav{
     align-items: center;
 }
 
+nav .hamburg-icon{
+    display: none;
+}
+
 nav ul{
     list-style-type: none;
     color: white;
@@ -181,7 +185,8 @@ nav button{
 
 .container{
     display: grid;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -365,19 +370,25 @@ footer p{
 
 
 @media screen and (max-width:576px) {
+   
+
     header{
     background-image: url('../assets/hero-circle.png'), url('../assets/hero-bg.png');
     /* background-image: url('../assets/hero-circle.png'); */
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
-    width: 100vw;
-    /* height: 48rem; */
+    /* background-size: contain;
+    width: 440px;
+    height: 466px; */
     vertical-align: middle;
     overflow-x: hidden;
     overflow-y: hidden;
     }
 
 
+    nav .hamburg-icon{
+        display: block;
+    }
     .nav-link, .primary-btn{
         display: none;
     }
@@ -416,7 +427,28 @@ footer p{
     padding-top: 2rem;
     }
 
-    
 
+    .meet-the-host .host-parent{
+        width: 400px;
+        height: 485px;
+        flex-direction: column;
+    }
 
+    .meet-the-host .host-parent .host-image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .host-container{
+        width: 400px;
+        text-align: center;
+       
+    }
+
+    .footer-section{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+  
 }
