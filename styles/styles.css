@@ -137,7 +137,7 @@ nav button{
     background-color: #1A0B2E;
     color:white ;
     text-align: center;
-    padding: 50px 200px 374px 200px;
+    padding: 50px 200px 50px 200px;
 }
 
 .about-section h2{
@@ -372,19 +372,7 @@ footer p{
 @media screen and (max-width:576px) {
    
 
-    header{
-    background-image: url('../assets/hero-circle.png'), url('../assets/hero-bg.png');
-    /* background-image: url('../assets/hero-circle.png'); */
-    background-repeat: no-repeat, no-repeat;
-    background-position: center, center;
-    /* background-size: contain;
-    width: 440px;
-    height: 466px; */
-    vertical-align: middle;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    }
-
+  
 
     nav .hamburg-icon{
         display: block;
