@@ -54,6 +54,12 @@ header{
     position: absolute;
     margin-top: -40px;
     margin-left: 20px;
+    animation: blink 3s linear infinite;
+}
+
+@keyframes blink {
+  0%, 100% {background-color: #00FF88;}
+  50% {background-color: #ffffff;}
 }
 
 nav{
@@ -355,4 +361,62 @@ footer p{
     color: white;
     font-size: 1rem;
     padding-top: 2rem;
+}
+
+
+@media screen and (max-width:576px) {
+    header{
+    background-image: url('../assets/hero-circle.png'), url('../assets/hero-bg.png');
+    /* background-image: url('../assets/hero-circle.png'); */
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    width: 100vw;
+    /* height: 48rem; */
+    vertical-align: middle;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+
+
+    .nav-link, .primary-btn{
+        display: none;
+    }
+
+   
+
+
+    .about-section{
+        padding: 4px;
+    }
+    
+    .rating-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .choose-techwave .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .div1 .div2 .div3 .div4 .div5{
+        width: 400px;
+    }
+
+
+    .middle-section .card-section{
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .middle-section h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    }
+
+    
+
+
 }
