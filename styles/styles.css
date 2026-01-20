@@ -344,7 +344,7 @@ iframe{
 
 /* styles for footer section */
 footer{
-    background-image: url('assets/footer-bg.png');
+    background-image: url('../assets/footer-bg.png');
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
