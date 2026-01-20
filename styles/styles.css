@@ -199,7 +199,7 @@ nav button{
     grid-row-gap: 30px;
     color: white;
     /* margin: 0px auto; */
-    padding: 16px;
+    padding: 8px;
     padding-bottom: 100px;
 }
 
@@ -344,7 +344,7 @@ iframe{
 
 /* styles for footer section */
 footer{
-    background-image: url('/assets/footer-bg.png');
+    background-image: url('assets/footer-bg.png');
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,6 +457,7 @@ footer p{
     .footer-section{
         text-align: center;
         font-size: 10px;
+        padding-top: 4rem;
     }
 
     .footer-section h1{
